@@ -1,126 +1,102 @@
 body {
-  background-color: #222;
-  color: #fff;
+  background-color: #f5f6fa;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
-
-.status {
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px; /* Adjust the value as per your preference */
-}
-
-h2 {
-  margin-top: 0;
-}
-
-p {
-  margin-bottom: 0;
-  font-size: 14px; /* Adjust the value as per your preference */
-  color: green; /* Add this line to set the text color to green */
-}
-
-.operational {
-  color: green;
-}
-
-.offline {
-  color: red;
-}
-
-.maintenance {
-  color: yellow;
-}
-/* Previous CSS code... */
-
-.footer {
-  background-color: #333;
+.header {
+  background-color: #7289da;
   padding: 10px;
   text-align: center;
 }
 
-.footer p {
-  margin: 0;
-  font-size: 12px; /* Adjust the value as per your preference */
+.logo {
   color: #fff;
+  font-size: 24px;
+  margin: 0;
 }
 
-/* Remaining CSS code... */
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.png) center/cover no-repeat fixed;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-.status {
-  background-color: #333;
+.content {
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.status-title {
+  font-size: 24px;
+  color: #2c2f33;
   margin-top: 0;
 }
 
-p {
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #fff;
+.status-text {
+  font-size: 18px;
+  color: #7289da;
+  margin-bottom: 10px;
 }
 
-.operational {
-  color: green;
-}
-
-.offline {
-  color: red;
-}
-
-.maintenance {
-  color: yellow;
+.player-count {
+  font-size: 16px;
+  color: #747f8d;
+  margin-top: 0;
 }
 
 .footer {
-  background-color: #333;
+  background-color: #7289da;
   padding: 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
-.footer p {
-  margin: 0;
-  font-size: 12px;
+.footer-text {
   color: #fff;
-}
-/* Previous CSS code... */
-
-body {
-  background-color: #000;
-  opacity: 0;
-  transition: opacity 1s ease-in; /* Add a transition effect for opacity */
+  font-size: 12px;
+  margin: 0;
 }
 
-.fade-in {
-  opacity: 1;
-}
+/* Media Queries for Mobile Devices */
 
-/* Remaining CSS code... */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    padding: 5px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .status-title {
+    font-size: 20px;
+  }
+
+  .status-text {
+    font-size: 16px;
+  }
+
+  .player-count {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+}
