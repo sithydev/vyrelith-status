@@ -1,25 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Server Status Updates</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>My Forum</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Server Status Updates</h1>
-
-    <!-- Form to add new updates -->
-    <form id="update-form">
-      <textarea id="update-text" placeholder="Enter update here..." required></textarea>
-      <button type="submit">Add Update</button>
-    </form>
-
-    <!-- List to display updates -->
-    <ul id="update-list"></ul>
-  </div>
-
+  <header>
+    <h1>Welcome to My Forum</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Create Topic</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="categories">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Education</a></li>
+      </ul>
+    </section>
+    
+    <section id="topics">
+      <h2>Latest Topics</h2>
+      <ul>
+        <li>
+          <h3><a href="#">Topic 1</a></h3>
+          <p>Posted by: User1</p>
+          <p>Date: 2023-06-05</p>
+        </li>
+        <li>
+          <h3><a href="#">Topic 2</a></h3>
+          <p>Posted by: User2</p>
+          <p>Date: 2023-06-04</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Forum. All rights reserved.</p>
+  </footer>
+  
   <script src="script.js"></script>
 </body>
 </html>
