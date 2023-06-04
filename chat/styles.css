@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#chat-window {
+  height: 300px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+#message-input {
+  margin-top: 20px;
+}
+
+#message {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#send-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
