@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minecraft Server Status</title>
+  <title>Server Status Updates</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <div class="status">
-      <h2 class="status-title">Server Status</h2>
-      <p class="status-text">Loading...</p>
-      <p class="player-count">0 Players Online</p>
-    </div>
-    <div class="footer">
-      <p class="footer-text">&copy; 2023 Team Vyrelith. Page updates every 5 minutes.</p>
-    </div>
+    <h1>Server Status Updates</h1>
+
+    <!-- Form to add new updates -->
+    <form id="update-form">
+      <textarea id="update-text" placeholder="Enter update here..." required></textarea>
+      <button type="submit">Add Update</button>
+    </form>
+
+    <!-- List to display updates -->
+    <ul id="update-list"></ul>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
