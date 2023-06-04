@@ -1,0 +1,126 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.status {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px; /* Adjust the value as per your preference */
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 14px; /* Adjust the value as per your preference */
+  color: green; /* Add this line to set the text color to green */
+}
+
+.operational {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.maintenance {
+  color: yellow;
+}
+/* Previous CSS code... */
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px; /* Adjust the value as per your preference */
+  color: #fff;
+}
+
+/* Remaining CSS code... */
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.png) center/cover no-repeat fixed;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.status {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.operational {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.maintenance {
+  color: yellow;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+}
+/* Previous CSS code... */
+
+body {
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 1s ease-in; /* Add a transition effect for opacity */
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+/* Remaining CSS code... */
