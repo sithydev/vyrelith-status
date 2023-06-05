@@ -1,58 +1,22 @@
 body {
-  background-color: #222;
-  color: #fff;
-  font-family: "Mojangless", Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
 }
 
 h1 {
-  margin-bottom: 20px;
+  color: #2c3e50;
 }
 
-.status {
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px; /* Adjust the value as per your preference */
-}
-
-h2 {
-  margin-top: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-p {
-  margin-bottom: 0;
-}
-
-.operational {
-  color: green;
-}
-
-.offline {
-  color: red;
-}
-
-.maintenance {
-  color: yellow;
-}
-/* Previous CSS code... */
-
-.footer {
-  background-color: #333;
-  padding: 10px;
+#status {
   text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
 }
-
-.footer p {
-  margin: 0;
-  font-size: 12px; /* Adjust the value as per your preference */
-  color: #fff;
-}
-
-/* Remaining CSS code... */
