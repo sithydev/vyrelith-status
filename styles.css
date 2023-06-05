@@ -41,3 +41,18 @@ p {
 .maintenance {
   color: yellow;
 }
+/* Previous CSS code... */
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px; /* Adjust the value as per your preference */
+  color: #fff;
+}
+
+/* Remaining CSS code... */
