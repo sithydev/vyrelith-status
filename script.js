@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
         if (data.online) {
-          statusElement.textContent = `Server is online - ${data.players.online} players online`;
+          statusElement.textContent = `Operational - ${data.players.online} playing.`;
         } else {
-          statusElement.textContent = 'Server is offline';
+          statusElement.textContent = 'Offline';
         }
       })
       .catch(error => {
-        statusElement.textContent = 'Failed to fetch server status';
+        statusElement.textContent = 'Error';
         console.error(error);
       });
   }
